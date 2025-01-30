@@ -25,5 +25,5 @@ jobs:
     - name: Build
       run: |
         npm install
-        next build
-        next start
+        npm run build
+        npm start
